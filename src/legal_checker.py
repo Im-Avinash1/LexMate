@@ -1,7 +1,7 @@
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 def check_legal_compliance(text):
     prompt = "Check if this legal document contains any clauses that may violate common business laws or pose a risk. List them clearly."
